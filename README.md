@@ -1,6 +1,8 @@
 # enders-cool-fnf-things-i-guess
 i like putting way too much effort into things so heres things i put effort into
 
+to download go to export/releases > windows > bin, and download everything in the bin folder
+
 # Friday Night Funkin' - Psych Engine
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 
