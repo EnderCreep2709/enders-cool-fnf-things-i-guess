@@ -1,0 +1,10 @@
+{
+	"directory": "SonicP2",
+	"defaultZoom": 0.9,
+	"isPixelStage": false,
+	"hide_girlfriend": true,
+
+	"boyfriend": [780, 100],
+	"girlfriend": [-1050, -630],
+	"opponent": [280, 100]
+}

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="unrespPop.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="unrespPop0000" x="5" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0001" x="5" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0002" x="410" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0003" x="410" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0004" x="815" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0005" x="815" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0006" x="1220" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0007" x="1220" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0008" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0009" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0010" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0011" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0012" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0013" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0014" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0015" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0016" x="1625" y="5" width="400" height="300" frameX="0" frameY="0" frameWidth="609" frameHeight="414"/>
+	<SubTexture name="unrespPop0017" x="5" y="310" width="609" height="414"/>
+	<SubTexture name="unrespPop0018" x="5" y="310" width="609" height="414"/>
+	<SubTexture name="unrespPop0019" x="619" y="310" width="609" height="414"/>
+	<SubTexture name="unrespPop0020" x="619" y="310" width="609" height="414"/>
+	<SubTexture name="unrespPop0021" x="1233" y="310" width="609" height="414"/>
+	<SubTexture name="unrespPop0022" x="1233" y="310" width="609" height="414"/>
+	<SubTexture name="unrespPop0023" x="5" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0024" x="5" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0025" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0026" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0027" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0028" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0029" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0030" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0031" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0032" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0033" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0034" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0035" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0036" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0037" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0038" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0039" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0040" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0041" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0042" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0043" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0044" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0045" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0046" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0047" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0048" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0049" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0050" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0051" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0052" x="619" y="729" width="609" height="414"/>
+	<SubTexture name="unrespPop0053" x="619" y="729" width="609" height="414"/>
+</TextureAtlas>
