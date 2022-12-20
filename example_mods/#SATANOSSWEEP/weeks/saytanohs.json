@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Perdition",
+			"satanos",
+			[
+				255,
+				35,
+				15
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "satanos",
+	"difficulties": "Nightmare",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "sat",
+	"weekName": "anos",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

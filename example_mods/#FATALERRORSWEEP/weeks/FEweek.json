@@ -1,0 +1,52 @@
+{
+	"songs": [
+		[
+			"Zenith",
+			"fatal-sonic",
+			[
+				255,
+				35,
+				15
+			]
+		],
+
+		[
+			"Fatality",
+			"fatal-sonic",
+			[
+				255,
+				35,
+				15
+			]
+		],
+
+		[
+			"Unresponsive",
+			"true-fatal",
+			[
+				255,
+				35,
+				15
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "FATAL",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your Last Fatal Error",
+	"weekName": "Fatalism",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

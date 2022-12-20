@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTSOFAST.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="NOTSOFAST0000" x="5" y="5" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0001" x="5" y="5" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0002" x="571" y="5" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0003" x="571" y="5" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0004" x="1137" y="5" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0005" x="1137" y="5" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0006" x="5" y="201" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0007" x="5" y="201" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0008" x="5" y="201" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0009" x="5" y="201" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0010" x="571" y="201" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0011" x="571" y="201" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0012" x="1137" y="201" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0013" x="1137" y="201" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0014" x="5" y="397" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0015" x="5" y="397" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0016" x="571" y="397" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0017" x="571" y="397" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0018" x="571" y="397" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0019" x="571" y="397" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0020" x="1137" y="397" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0021" x="1137" y="397" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0022" x="5" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0023" x="5" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0024" x="571" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0025" x="571" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0026" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0027" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0028" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0029" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0030" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0031" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0032" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0033" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0034" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0035" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0036" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0037" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0038" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0039" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0040" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0041" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0042" x="1137" y="593" width="561" height="191"/>
+	<SubTexture name="NOTSOFAST0043" x="1137" y="593" width="561" height="191"/>
+</TextureAtlas>

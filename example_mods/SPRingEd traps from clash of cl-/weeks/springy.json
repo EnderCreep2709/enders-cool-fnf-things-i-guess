@@ -1,0 +1,31 @@
+{
+	"storyName": "hi 1up",
+	"hideFreeplay": false,
+	"difficulties": "Frightening",
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Purgatory",
+			"bf",
+			[
+				255,
+				202,
+				68
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"gf"
+	],
+	"weekName": "spingtap"
+}

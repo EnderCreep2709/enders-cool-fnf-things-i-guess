@@ -1,0 +1,31 @@
+{
+	"storyName": "Triple Trouble Cover",
+	"difficulties": "Personalized",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		80,
+		10,
+		10
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Your Copy",
+			"sonicexe",
+			[
+				80,
+				10,
+				10
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekName": "Triple Trouble Cover"
+}
