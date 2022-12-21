@@ -1,9 +1,0 @@
-Make the screen go all black thats it
-
-Value 1:
-game - keeps the hud visible
-hud - covers the hud
-
-Value 2:
-1 - screen on
-2 - screen off

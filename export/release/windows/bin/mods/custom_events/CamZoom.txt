@@ -1,3 +1,0 @@
-changes how zoomed in the camera is
-
-value 1 = camera zoom
