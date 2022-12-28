@@ -1,14 +1,16 @@
+defaultY = defaultOpponentStrumY0;
+
 function onStepHit()
 	if curBeat >= 68 and curBeat < 131 then
 		if curStep % 4 == 0 then
-			noteTweenY('a', 0, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('b', 1, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('c', 2, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('d', 3, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('e', 4, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('f', 5, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('g', 6, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('h', 7, 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('a', 0, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('b', 1, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('c', 2, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('d', 3, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('e', 4, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('f', 5, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('g', 6, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('h', 7, defaultY + 20, stepCrochet*0.002, 'circOut')
 		end
 		if curStep % 4 == 2 then
 			noteTweenY('a', 0, defaultOpponentStrumY0, stepCrochet*0.002, 'sineIn')
@@ -24,14 +26,14 @@ function onStepHit()
 
 	if curBeat >= 296 and curBeat < 344 then
 		if curStep % 4 == 0 then
-			noteTweenY('a', 0, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('b', 1, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('c', 2, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('d', 3, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('e', 4, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('f', 5, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('g', 6, 20, stepCrochet*0.002, 'circOut')
-			noteTweenY('h', 7, 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('a', 0, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('b', 1, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('c', 2, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('d', 3, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('e', 4, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('f', 5, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('g', 6, defaultY + 20, stepCrochet*0.002, 'circOut')
+			noteTweenY('h', 7, defaultY + 20, stepCrochet*0.002, 'circOut')
 		end
 		if curStep % 4 == 2 then
 			noteTweenY('a', 0, defaultOpponentStrumY0, stepCrochet*0.002, 'sineIn')

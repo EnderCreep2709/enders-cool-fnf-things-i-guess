@@ -1,6 +1,6 @@
 {
-	"storyName": "mario",
-	"difficulties": "Personalized",
+	"storyName": "Nintendo VS Sega",
+	"difficulties": "Mario, Sonic, Both",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
@@ -10,15 +10,15 @@
 		10
 	],
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"hideStoryMode": true,
 	"songs": [
 		[
-			"Your Copy",
+			"Occasional Rivalry",
 			"sonicexe",
 			[
 				80,
-				10,
-				10
+				80,
+				80
 			]
 		]
 	],
@@ -27,5 +27,5 @@
 		"bf",
 		"gf"
 	],
-	"weekName": "jumpman"
+	"weekName": "Somari"
 }
