@@ -15,6 +15,16 @@ local spreadWay = {92, 428, 732, 1068}
 local leftSider = {2, 114, 226, 338}
 local rightSider = {822, 934, 1046, 1158}
 
+local wigglefreq = 0
+local wiggleamp = 0
+
+function onSongStart()
+    setProperty("timeBar.color",getColorFromHex("FF0000"))
+end
+function onCreate()
+    setProperty('skipCountdown', true);
+end
+
 --fix holds & stuff for keychange
 function onUpdate()
     songPos = getSongPosition();
@@ -63,11 +73,27 @@ function onUpdate()
 
 end	
 
+--wiggle fades away
+function onStepHit()
+    wigglefreq = wigglefreq + 1;
+	wiggleamp = wiggleamp - 1;
+
+    if curBeat <= 236 or curBeat >= 300 then
+        wigglefreq = wigglefreq + 2;
+	    wiggleamp = wiggleamp - 2;
+    end
+
+    if wiggleamp < 0 then
+        wiggleamp = 0
+    end    
+end
+
 --da modchart events
 function onBeatHit()
 
     --hud elements leave
     if curBeat == 40 then
+        
         for Alphas = 1,8 do
 			doTweenAlpha('Alpha'..Alphas, HudPieces[index], 0, 0.5 - 0.1);
 			index = index + 1
@@ -157,8 +183,20 @@ function onBeatHit()
 
     end
 
+    --HERE IT COMES
+    if curBeat == 232 then
+        wigglefreq = 5;
+		wiggleamp = 25;
+    end
+    if curBeat == 234 then
+        wigglefreq = 8;
+		wiggleamp = 20;
+    end
+
     --ASCENSION
     if curBeat == 236 then
+        wigglefreq = 1;
+		wiggleamp = 30;
         for i = 4, 7 do
 			noteTweenX('moveNoteX'..i, i, splitWay[i-3], 1, 'quadOut');
 		end
@@ -166,6 +204,113 @@ function onBeatHit()
             noteTweenX('moveNoteX'..i, i, middleWay[i+1], 1, 'quadOut');
 			noteTweenAlpha('alphaNote' .. i, i, 0.5, 0.5, 'quadOut');
 		end
+    end
+
+    --replace this lol
+    if curBeat == 244 then
+        wigglefreq = 20;
+		wiggleamp = 13;
+    end
+
+    if curBeat == 252 then
+        wigglefreq = 20;
+		wiggleamp = 8;
+    end
+    if curBeat == 253 then
+        wigglefreq = 20;
+		wiggleamp = 11;
+    end
+    if curBeat == 255 then
+        wigglefreq = 10;
+		wiggleamp = 15;
+    end
+    if curBeat == 257 then
+        wigglefreq = 15;
+		wiggleamp = 11;
+    end
+    if curBeat == 259 then
+        wigglefreq = 20;
+		wiggleamp = 7;
+    end
+
+    if curBeat == 260 then
+        wigglefreq = 20;
+		wiggleamp = 8;
+    end
+    if curBeat == 261 then
+        wigglefreq = 20;
+		wiggleamp = 11;
+    end
+    if curBeat == 263 then
+        wigglefreq = 20;
+		wiggleamp = 15;
+    end
+    if curBeat == 265 then
+        wigglefreq = 10;
+		wiggleamp = 20;
+    end
+    if curBeat == 266 then
+        wigglefreq = 15;
+		wiggleamp = 15;
+    end
+    if curBeat == 267 then
+        wigglefreq = 20;
+		wiggleamp = 10;
+    end
+
+    if curBeat == 268 then
+        wigglefreq = 1;
+		wiggleamp = 30;
+    end
+    if curBeat == 276 then
+        wigglefreq = 20;
+		wiggleamp = 13;
+    end
+
+    if curBeat == 284 then
+        wigglefreq = 20;
+		wiggleamp = 8;
+    end
+    if curBeat == 285 then
+        wigglefreq = 20;
+		wiggleamp = 11;
+    end
+    if curBeat == 287 then
+        wigglefreq = 10;
+		wiggleamp = 15;
+    end
+    if curBeat == 289 then
+        wigglefreq = 15;
+		wiggleamp = 11;
+    end
+    if curBeat == 291 then
+        wigglefreq = 20;
+		wiggleamp = 7;
+    end
+
+    if curBeat == 292 then
+        wigglefreq = 20;
+		wiggleamp = 8;
+    end
+    if curBeat == 293 then
+        wigglefreq = 20;
+		wiggleamp = 11;
+    end
+    if curBeat == 295 then
+        wigglefreq = 20;
+		wiggleamp = 15;
+    end
+    if curBeat == 297 then
+        wigglefreq = 10;
+		wiggleamp = 20;
+    end
+    if curBeat == 298 then
+        wigglefreq = 15;
+		wiggleamp = 15;
+    end
+    if curBeat == 298 then
+        wigglefreq = 20;
+		wiggleamp = 10;
     end
 
     if curBeat == 268 then
@@ -271,6 +416,8 @@ function onBeatHit()
 
     --split more
     if curBeat == 336 then
+        wigglefreq = 2;
+		wiggleamp = 40;
         for i = 4, 7 do
 			noteTweenX('moveNoteX'..i, i, spreadWay[i-3], 0.5, 'quadOut');
 		end
@@ -327,6 +474,11 @@ function onBeatHit()
             end
         end
 
+    end
+
+    if curBeat == 388 then
+        wigglefreq = 2;
+		wiggleamp = 10;
     end
 
     --fight for center
@@ -414,6 +566,23 @@ function onBeatHit()
         end
     end
 
+    if curBeat == 512 then
+        wigglefreq = 5;
+		wiggleamp = 20;
+    end
+    if curBeat == 524 then
+        wigglefreq = 5;
+		wiggleamp = 20;
+    end
+    if curBeat == 548 then
+        wigglefreq = 10;
+		wiggleamp = 25;
+    end
+    if curBeat == 564 then
+        wigglefreq = 10;
+		wiggleamp = 25;
+    end
+
     if curBeat == 540 then
         for i = 0, 3 do
             if downscroll then
@@ -440,6 +609,8 @@ function onBeatHit()
 
     --the schmoves ended :{
     if curBeat == 708 then
+        wigglefreq = 2;
+		wiggleamp = 35;
         doTweenZoom('end', 'camHUD', 4, 2, 'quadOut')
         for i = 0, 3 do
             noteTweenX('moveNoteX'..i, i, splitWay2[i+1], 3, 'quadOut');
@@ -447,4 +618,19 @@ function onBeatHit()
         end
     end
 
+end
+
+function onUpdatePost()
+    if not inGameOver then
+        for i=0,getProperty('notes.length') do
+            strum = getPropertyFromGroup('notes',i,'strumTime');
+            woom = (strum-getSongPosition());
+            
+            if wiggleamp > 0 then
+                woom = (strum-getSongPosition())/wigglefreq;
+            end
+
+            setPropertyFromGroup('notes',i,'angle',wiggleamp *math.sin(woom));
+        end
+    end
 end

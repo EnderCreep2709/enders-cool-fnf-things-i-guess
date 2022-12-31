@@ -2,8 +2,8 @@ local currentBarPorcent = 0
 
 --make staticMAYBE and make it hide
 function onCreatePost()
-    makeLuaSprite('staticMAYBE','staticMAYBE', -200,-170)
-    scaleObject('staticMAYBE',2,1.7)
+    makeLuaSprite('staticMAYBE','staticMAYBE', -40, -40)
+    scaleObject('staticMAYBE',0.47,0.47)
     setObjectCamera('staticMAYBE','camOther')
     doTweenAlpha('staticMAYBE','staticMAYBE',0,0.01,'linear')
     setProperty('staticMAYBE.visible',false);
@@ -22,8 +22,8 @@ function onUpdate()
     end
 
     --max 
-    if currentBarPorcent > 0.85 then
-        currentBarPorcent  = 0.85
+    if currentBarPorcent > 0.98 then
+        currentBarPorcent = 0.98
     end
 
     --min
@@ -38,19 +38,19 @@ end
 --note hits change things
 function opponentNoteHit()
 
-    if currentBarPorcent < 0.85 then
-        currentBarPorcent = currentBarPorcent + 0.005
+    if currentBarPorcent < 0.98 then
+        currentBarPorcent = currentBarPorcent + 0.0075
     end
 end
 function goodNoteHit()
     if currentBarPorcent > 0 then
-        currentBarPorcent = currentBarPorcent - 0.005
+        currentBarPorcent = currentBarPorcent - 0.007
     end
 end
 function noteMiss(id,dir,type,sustain)
     if type == '' then
-        if currentBarPorcent < 1 then
-            currentBarPorcent = currentBarPorcent + 0.005
+        if currentBarPorcent < 0.98 then
+            currentBarPorcent = currentBarPorcent + 0.0075
         end
     end
 end
