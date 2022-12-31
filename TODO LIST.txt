@@ -1,0 +1,4 @@
+sprite satanos
+satanos bg
+hi bg
+bd alt anims and miss and game over

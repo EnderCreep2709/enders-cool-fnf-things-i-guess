@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				80
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "bbIdle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				87
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bbUp",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				23,
+				-14
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bbDown",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				80
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bbLeft",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				80
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bbRight",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				40,
+				98
+			],
+			"anim": "hi",
+			"fps": 24,
+			"name": "bbHi",
+			"indices": []
+		},
+		{
+			"offsets": [
+				17,
+				77
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "boobs",
+			"loop": false,
+			"name": "bbBoobs"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bb",
+	"position": [
+		100,
+		610
+	],
+	"healthicon": "boobs",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		20,
+		-90
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
