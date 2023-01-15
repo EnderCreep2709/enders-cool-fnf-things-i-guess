@@ -5978,6 +5978,36 @@
 				"bpm": 160
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 160,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 160,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 160
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -6116,6 +6146,16 @@
 						"Add Camera Zoom",
 						"",
 						""
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Play Animation",
+						"hi",
+						"dad"
 					]
 				]
 			],
@@ -6830,6 +6870,16 @@
 				]
 			],
 			[
+				73507.8125,
+				[
+					[
+						"Play Animation",
+						"hi",
+						"dad"
+					]
+				]
+			],
+			[
 				74250,
 				[
 					[
@@ -6850,12 +6900,32 @@
 				]
 			],
 			[
+				74628.90625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
+					]
+				]
+			],
+			[
 				74718.75,
 				[
 					[
 						"Add Camera Zoom",
 						"",
 						""
+					]
+				]
+			],
+			[
+				74722.65625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
 					]
 				]
 			],
@@ -6870,12 +6940,32 @@
 				]
 			],
 			[
+				74816.40625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
+					]
+				]
+			],
+			[
 				74906.25,
 				[
 					[
 						"Add Camera Zoom",
 						"",
 						""
+					]
+				]
+			],
+			[
+				74910.15625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
 					]
 				]
 			],
@@ -7340,7 +7430,7 @@
 				]
 			],
 			[
-				115503.90625,
+				115500,
 				[
 					[
 						"Add Camera Zoom",
@@ -7500,7 +7590,7 @@
 				]
 			],
 			[
-				121503.90625,
+				121500,
 				[
 					[
 						"Add Camera Zoom",
@@ -8150,6 +8240,16 @@
 				]
 			],
 			[
+				145500,
+				[
+					[
+						"Play Animation",
+						"hi",
+						"dad"
+					]
+				]
+			],
+			[
 				146250,
 				[
 					[
@@ -8170,12 +8270,32 @@
 				]
 			],
 			[
+				146628.90625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
+					]
+				]
+			],
+			[
 				146718.75,
 				[
 					[
 						"Add Camera Zoom",
 						"",
 						""
+					]
+				]
+			],
+			[
+				146722.65625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
 					]
 				]
 			],
@@ -8190,6 +8310,16 @@
 				]
 			],
 			[
+				146816.40625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
+					]
+				]
+			],
+			[
 				146906.25,
 				[
 					[
@@ -8200,12 +8330,32 @@
 				]
 			],
 			[
+				146910.15625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
+					]
+				]
+			],
+			[
 				147000,
 				[
 					[
 						"Add Camera Zoom",
 						"",
 						""
+					]
+				]
+			],
+			[
+				147003.90625,
+				[
+					[
+						"Play Animation",
+						"boobs",
+						"dad"
 					]
 				]
 			]

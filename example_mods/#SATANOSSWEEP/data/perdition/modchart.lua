@@ -18,6 +18,114 @@ local rightSider = {822, 934, 1046, 1158}
 local wigglefreq = 0
 local wiggleamp = 0
 
+beatHitFuncs = 
+{ 
+    [244] = function()
+        wigglefreq = 20;
+		wiggleamp = 13;
+    end,
+    [252] = function()
+        wigglefreq = 20;
+		wiggleamp = 8;
+    end,
+    [253] = function()
+        wigglefreq = 20;
+		wiggleamp = 11;
+    end,
+    [255] = function()
+        wigglefreq = 10;
+		wiggleamp = 15;
+    end,
+    [257]  = function()
+        wigglefreq = 15;
+		wiggleamp = 11;
+    end,
+    [259] = function()
+        wigglefreq = 20;
+		wiggleamp = 7;
+    end,
+
+    [260] = function()
+        wigglefreq = 20;
+		wiggleamp = 8;
+    end,
+    [261] = function()
+        wigglefreq = 20;
+		wiggleamp = 11;
+    end,
+    [263] = function()
+        wigglefreq = 20;
+		wiggleamp = 15;
+    end,
+    [265] = function()
+        wigglefreq = 10;
+		wiggleamp = 20;
+    end,
+    [266] = function()
+        wigglefreq = 15;
+		wiggleamp = 15;
+    end,
+    [267] = function()
+        wigglefreq = 20;
+		wiggleamp = 10;
+    end,
+
+    [268] = function()
+        wigglefreq = 1;
+		wiggleamp = 30;
+    end,
+    [276] = function()
+        wigglefreq = 20;
+		wiggleamp = 13;
+    end,
+
+    [284] = function()
+        wigglefreq = 20;
+		wiggleamp = 8;
+    end,
+    [285] = function()
+        wigglefreq = 20;
+		wiggleamp = 11;
+    end,
+    [287] = function()
+        wigglefreq = 10;
+		wiggleamp = 15;
+    end,
+    [289] = function()
+        wigglefreq = 15;
+		wiggleamp = 11;
+    end,
+    [291] = function()
+        wigglefreq = 20;
+		wiggleamp = 7;
+    end,
+
+    [292] = function()
+        wigglefreq = 20;
+		wiggleamp = 8;
+    end,
+    [293] = function()
+        wigglefreq = 20;
+		wiggleamp = 11;
+    end,
+    [295] = function()
+        wigglefreq = 20;
+		wiggleamp = 15;
+    end,
+    [297] = function()
+        wigglefreq = 10;
+		wiggleamp = 20;
+    end,
+    [298] = function()
+        wigglefreq = 15;
+		wiggleamp = 15;
+    end,
+    [298] = function()
+        wigglefreq = 20;
+		wiggleamp = 10;
+    end
+}
+
 function onSongStart()
     setProperty("timeBar.color",getColorFromHex("FF0000"))
 end
@@ -207,110 +315,9 @@ function onBeatHit()
     end
 
     --replace this lol
-    if curBeat == 244 then
-        wigglefreq = 20;
-		wiggleamp = 13;
-    end
 
-    if curBeat == 252 then
-        wigglefreq = 20;
-		wiggleamp = 8;
-    end
-    if curBeat == 253 then
-        wigglefreq = 20;
-		wiggleamp = 11;
-    end
-    if curBeat == 255 then
-        wigglefreq = 10;
-		wiggleamp = 15;
-    end
-    if curBeat == 257 then
-        wigglefreq = 15;
-		wiggleamp = 11;
-    end
-    if curBeat == 259 then
-        wigglefreq = 20;
-		wiggleamp = 7;
-    end
-
-    if curBeat == 260 then
-        wigglefreq = 20;
-		wiggleamp = 8;
-    end
-    if curBeat == 261 then
-        wigglefreq = 20;
-		wiggleamp = 11;
-    end
-    if curBeat == 263 then
-        wigglefreq = 20;
-		wiggleamp = 15;
-    end
-    if curBeat == 265 then
-        wigglefreq = 10;
-		wiggleamp = 20;
-    end
-    if curBeat == 266 then
-        wigglefreq = 15;
-		wiggleamp = 15;
-    end
-    if curBeat == 267 then
-        wigglefreq = 20;
-		wiggleamp = 10;
-    end
-
-    if curBeat == 268 then
-        wigglefreq = 1;
-		wiggleamp = 30;
-    end
-    if curBeat == 276 then
-        wigglefreq = 20;
-		wiggleamp = 13;
-    end
-
-    if curBeat == 284 then
-        wigglefreq = 20;
-		wiggleamp = 8;
-    end
-    if curBeat == 285 then
-        wigglefreq = 20;
-		wiggleamp = 11;
-    end
-    if curBeat == 287 then
-        wigglefreq = 10;
-		wiggleamp = 15;
-    end
-    if curBeat == 289 then
-        wigglefreq = 15;
-		wiggleamp = 11;
-    end
-    if curBeat == 291 then
-        wigglefreq = 20;
-		wiggleamp = 7;
-    end
-
-    if curBeat == 292 then
-        wigglefreq = 20;
-		wiggleamp = 8;
-    end
-    if curBeat == 293 then
-        wigglefreq = 20;
-		wiggleamp = 11;
-    end
-    if curBeat == 295 then
-        wigglefreq = 20;
-		wiggleamp = 15;
-    end
-    if curBeat == 297 then
-        wigglefreq = 10;
-		wiggleamp = 20;
-    end
-    if curBeat == 298 then
-        wigglefreq = 15;
-		wiggleamp = 15;
-    end
-    if curBeat == 298 then
-        wigglefreq = 20;
-		wiggleamp = 10;
+    if beatHitFuncs[curBeat] then 
+        beatHitFuncs[curBeat]()
     end
 
     if curBeat == 268 then

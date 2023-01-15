@@ -1,0 +1,31 @@
+{
+	"storyName": "goddddd",
+	"difficulties": "BF",
+	"hideFreeplay": false,
+	"weekBackground": "kill this kid",
+	"weekBefore": "PLEASE",
+	"freeplayColor": [
+		0,
+		0,
+		0
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Dead Ringer",
+			"sonicexe",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"KILL",
+		"YOURSELF",
+		"BOYFRIEND"
+	],
+	"weekName": "im gonna cry"
+}
