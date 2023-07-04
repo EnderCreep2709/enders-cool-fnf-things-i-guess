@@ -1,4 +1,4 @@
-# enders-cool-fnf-things-i-guess
+# prisms-cool-fnf-things-i-guess
 i like putting way too much effort into things so heres things i put effort into
 
 to download go to export/releases > windows > bin, and download everything in the bin folder
