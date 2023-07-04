@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "picoIdle"
+		},
+		{
+			"offsets": [
+				49,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "picoLeft"
+		},
+		{
+			"offsets": [
+				-21,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "picoRight"
+		},
+		{
+			"offsets": [
+				85,
+				45
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "picoUp"
+		},
+		{
+			"offsets": [
+				-15,
+				-28
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "picoDown"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/picoH",
+	"position": [
+		110,
+		420
+	],
+	"healthicon": "glaggle",
+	"flip_x": true,
+	"healthbar_colors": [
+		225,
+		168,
+		31
+	],
+	"camera_position": [
+		180,
+		-130
+	],
+	"sing_duration": 4,
+	"scale": 2
+}

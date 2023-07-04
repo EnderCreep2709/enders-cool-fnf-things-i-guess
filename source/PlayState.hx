@@ -345,7 +345,7 @@ class PlayState extends MusicBeatState
 	var mountains:BGSprite;
 	var waterfall:FlxSprite;
 	var hills:BGSprite;
-	var sayo:FlxSprite;
+	var manul:FlxSprite;
 	var plants:BGSprite;
 	var ground:BGSprite;
 	var stones:BGSprite;
@@ -599,16 +599,16 @@ class PlayState extends MusicBeatState
 				//hills.scrollFactor.set(0.9, 0.9);
 				add(hills);
 
-				sayo = new FlxSprite(1160, 280);
-				sayo.frames = Paths.getSparrowAtlas('hog/scorch/Monitor', 'when the blast is manual');
-				sayo.animation.addByPrefix('idle', 'Monitor', 12, false);
-				sayo.animation.addByPrefix('fatal', 'Fatalerror', 12, false);
-				sayo.animation.addByPrefix('nmi', 'NMI', 12, false);
-				sayo.animation.addByPrefix('needle', 'Needlemouse', 12, false);
-				sayo.animation.addByPrefix('starved', 'Storved', 12, false);
-				sayo.animation.play('idle');
-				sayo.scrollFactor.set(0.9, 0.9);
-				add(sayo);
+				manul = new FlxSprite(1160, 280);
+				manul.frames = Paths.getSparrowAtlas('hog/scorch/Monitor', 'when the blast is manual');
+				manul.animation.addByPrefix('idle', 'Monitor', 12, false);
+				manul.animation.addByPrefix('fatal', 'Fatalerror', 12, false);
+				manul.animation.addByPrefix('nmi', 'NMI', 12, false);
+				manul.animation.addByPrefix('needle', 'Needlemouse', 12, false);
+				manul.animation.addByPrefix('starved', 'Storved', 12, false);
+				manul.animation.play('idle');
+				manul.scrollFactor.set(0.9, 0.9);
+				add(manul);
 
 				plants = new BGSprite('hog/scorch/plants', -380, 0, 1, 1);
 				add(plants);
@@ -5281,10 +5281,10 @@ class PlayState extends MusicBeatState
 			resyncVocals();
 		}
 
-		if(curStep % 32 == 0 && sayo!=null && sayo.visible && sayo.alive){
+		if(curStep % 32 == 0 && manul!=null && manul.visible && manul.alive){
 			monitorCounter++;
 			if(monitorCounter >= monitorAnims.length)monitorCounter=0;
-			sayo.animation.play(monitorAnims[monitorCounter], true);
+			manul.animation.play(monitorAnims[monitorCounter], true);
 		}
 
 		switch (SONG.song.toLowerCase())
@@ -5320,7 +5320,7 @@ class PlayState extends MusicBeatState
 						camFuckShader.amount = 0.075;
 						
 						glitchKill(hills);
-						glitchKill(sayo);
+						glitchKill(manul);
 						//3
 
 					case 4820:
