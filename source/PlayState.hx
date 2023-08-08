@@ -102,12 +102,12 @@ class PlayState extends MusicBeatState
 	public static var ratingStuff:Array<Dynamic> = [
 		['lol', 0.2], //From 0% to 19%
 		['play a different game', 0.4], //From 20% to 39%
-		['why r u like this', 0.5], //From 40% to 49%
+		['doglike', 0.5], //From 40% to 49%
 		['one handed arrow keys', 0.6], //From 50% to 59%
 		['who is this random', 0.7], //From 60% to 68%
 		['epic fail', 0.8], //From 70% to 79%
 		['falling off', 0.9], //From 80% to 89%
-		['winning', 1], //From 90% to 99%
+		['epic win', 1], //From 90% to 99%
 		['epic win', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 
